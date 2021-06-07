@@ -1,0 +1,32 @@
+.docs-head {
+	img{
+		width: 200px;
+		justify-self: end;
+	}
+}
+
+.docs-main {
+	.grid {
+		grid-template-columns: 2fr 4fr;
+		align-items: start;
+		
+		nav {
+			li {
+				padding-bottom: 5px;
+				border-bottom: 1px solid #ccc;
+				font-size: 1.1rem;
+			}
+		}
+		.alert i {
+			margin-right: .5rem;
+		}
+		h2, h3 {
+			margin: 1rem 0;
+		}
+		p {
+			margin: .5rem 0;
+		}
+		
+		
+	}
+}

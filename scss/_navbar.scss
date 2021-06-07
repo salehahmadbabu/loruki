@@ -1,0 +1,29 @@
+.navbar {
+	background-color: $primary-color;
+	color: $white;
+	padding: 1rem 0;	
+	
+	.flex {
+		@include flex(space-between);
+	}
+	
+	nav {
+		ul{
+			display: flex;
+			
+			li {
+				margin: 0 .5rem;
+				
+				a {
+					color: $white;
+					padding: .5rem .8rem;
+					
+					&:hover {
+						border-bottom: 2px solid $white;
+					}
+				}
+			}
+		}
+	}
+	
+}

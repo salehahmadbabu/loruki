@@ -1,0 +1,20 @@
+.footer {
+	a{
+		color: $white;
+	} 
+	.grid-3{
+		grid-template-columns: repeat(3,1fr);		
+	}
+	
+	nav {
+		justify-self: center;
+	}
+	
+	.social-links{
+		justify-self: end;
+		
+		a {
+			margin: 5px;
+		}
+	}
+}
